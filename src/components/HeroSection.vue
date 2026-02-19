@@ -46,12 +46,6 @@
         <a :href="personal.github" target="_blank" rel="noopener noreferrer" class="hero__social-link" aria-label="GitHub">
           <IconGitHub />
         </a>
-        <a :href="personal.linkedin" target="_blank" rel="noopener noreferrer" class="hero__social-link" aria-label="LinkedIn">
-          <IconLinkedIn />
-        </a>
-        <a :href="personal.twitter" target="_blank" rel="noopener noreferrer" class="hero__social-link" aria-label="Twitter">
-          <IconTwitter />
-        </a>
       </div>
     </div>
 
@@ -66,12 +60,10 @@
 <script>
 import { personal } from '@/data/portfolio.js'
 import IconGitHub   from '@/components/icons/IconGitHub.vue'
-import IconLinkedIn from '@/components/icons/IconLinkedIn.vue'
-import IconTwitter  from '@/components/icons/IconTwitter.vue'
 
 export default {
   name: 'HeroSection',
-  components: { IconGitHub, IconLinkedIn, IconTwitter },
+  components: { IconGitHub,},
   data() {
     return { personal }
   },

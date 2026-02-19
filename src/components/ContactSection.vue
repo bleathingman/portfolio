@@ -32,14 +32,6 @@
           <a :href="personal.github" target="_blank" rel="noopener noreferrer" class="contact__social">
             <IconGitHub /> GitHub
           </a>
-          <span class="contact__social-sep" aria-hidden="true">·</span>
-          <a :href="personal.linkedin" target="_blank" rel="noopener noreferrer" class="contact__social">
-            <IconLinkedIn /> LinkedIn
-          </a>
-          <span class="contact__social-sep" aria-hidden="true">·</span>
-          <a :href="personal.twitter" target="_blank" rel="noopener noreferrer" class="contact__social">
-            <IconTwitter /> Twitter
-          </a>
         </div>
       </div>
     </div>
@@ -49,12 +41,10 @@
 <script>
 import { personal } from '@/data/portfolio.js'
 import IconGitHub   from '@/components/icons/IconGitHub.vue'
-import IconLinkedIn from '@/components/icons/IconLinkedIn.vue'
-import IconTwitter  from '@/components/icons/IconTwitter.vue'
 
 export default {
   name: 'ContactSection',
-  components: { IconGitHub, IconLinkedIn, IconTwitter },
+  components: { IconGitHub,},
   data() {
     return { personal }
   },

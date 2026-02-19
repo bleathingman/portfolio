@@ -8,10 +8,8 @@ export const personal = {
   tagline: 'Web, software & game projects.\nLearning, sharing, creating.',
   location: 'Loire-Atlantique, France',
   available: true,
-  email: 'contact@divh.dev', // 🔧 à remplacer par ton vrai email
+  email: 'matheo@agencetoam.fr', // 🔧 à remplacer par ton vrai email
   github: 'https://github.com/bleathingman',
-  linkedin: 'https://linkedin.com/in/divh', // 🔧 à remplacer
-  twitter: 'https://twitter.com/divh',      // 🔧 à remplacer
 }
 
 export const about = {
@@ -53,7 +51,7 @@ export const projects = [
     link: 'https://github.com/bleathingman/Twitter-Lite',
     demo: null,
     featured: true,
-    year: '2023',
+    year: '2019',
     gradient: 'var(--gradient-primary)',
   },
   {
@@ -64,7 +62,7 @@ export const projects = [
     link: 'https://github.com/bleathingman/Wiki-Games',
     demo: null,
     featured: true,
-    year: '2024',
+    year: '2023',
     gradient: 'var(--gradient-green)',
   },
   {
@@ -75,7 +73,7 @@ export const projects = [
     link: 'https://github.com/bleathingman/wg-monitor',
     demo: null,
     featured: true,
-    year: '2025',
+    year: '2026',
     gradient: 'var(--gradient-warm)',
   },
   {
@@ -86,7 +84,7 @@ export const projects = [
     link: 'https://github.com/bleathingman/iron_system',
     demo: null,
     featured: false,
-    year: '2025',
+    year: '2026',
     gradient: 'linear-gradient(135deg, #c8b1ff, #4100d9)',
   },
   {
@@ -97,7 +95,7 @@ export const projects = [
     link: 'https://github.com/EtanFaisant/kleaccess',
     demo: null,
     featured: false,
-    year: '2022',
+    year: '2020',
     gradient: 'linear-gradient(135deg, #ff9a8b, #ff6a88)',
   },
 ]
