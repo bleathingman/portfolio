@@ -1,0 +1,62 @@
+/* ============================================
+   VARIABLES — Design Tokens
+   ============================================ */
+
+:root {
+  /* Colors */
+  --color-bg:           #0a0a0c;
+  --color-bg-secondary: #111114;
+  --color-bg-card:      #141418;
+  --color-bg-card-hover:#1a1a20;
+  --color-border:       rgba(255, 255, 255, 0.07);
+  --color-border-hover: rgba(255, 255, 255, 0.14);
+
+  --color-text:         #f0f0f0;
+  --color-text-muted:   rgba(240, 240, 240, 0.45);
+  --color-text-subtle:  rgba(240, 240, 240, 0.25);
+
+  /* Gradient Accent (inspired by iisu.network) */
+  --gradient-primary:   linear-gradient(135deg, #00ddff 0%, #067dba 35%, #2b1fd0 65%, #b71aeb 100%);
+  --gradient-green:     linear-gradient(135deg, #8fffb1 0%, #00c4a0 50%, #007c92 100%);
+  --gradient-warm:      linear-gradient(135deg, #ffe57c 0%, #e59e18 100%);
+  --gradient-text:      linear-gradient(135deg, #00ddff, #b71aeb);
+
+  /* Accent solid */
+  --color-accent:       #00ddff;
+  --color-accent-purple:#b71aeb;
+
+  /* Typography */
+  --font-display:       'Syne', sans-serif;
+  --font-body:          'DM Sans', sans-serif;
+
+  /* Spacing */
+  --space-xs:  0.25rem;
+  --space-sm:  0.5rem;
+  --space-md:  1rem;
+  --space-lg:  2rem;
+  --space-xl:  4rem;
+  --space-2xl: 8rem;
+
+  /* Radii */
+  --radius-sm:  6px;
+  --radius-md:  12px;
+  --radius-lg:  20px;
+  --radius-xl:  32px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --duration-fast:   150ms;
+  --duration-normal: 300ms;
+  --duration-slow:   600ms;
+
+  /* Shadows */
+  --shadow-card: 0 1px 1px rgba(0,0,0,0.4), 0 4px 12px rgba(0,0,0,0.3);
+  --shadow-glow-blue:   0 0 40px rgba(0, 221, 255, 0.15);
+  --shadow-glow-purple: 0 0 40px rgba(183, 26, 235, 0.12);
+
+  /* Layout */
+  --container-max: 1100px;
+  --nav-height:    68px;
+}
