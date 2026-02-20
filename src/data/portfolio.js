@@ -57,7 +57,7 @@ export const projects = [
   {
     id: 2,
     title: 'Wiki-Games',
-    description: 'Wiki collaboratif dédié aux jeux vidéo. Fiches de jeux, catégories et système de gestion de contenu développé en PHP.',
+    description: 'Wiki collaboratif (future) dédié aux jeux vidéo. Fiches de jeux, catégories et système de gestion de contenu développé en PHP.',
     tags: ['PHP', 'MySQL', 'HTML', 'CSS'],
     link: 'https://github.com/bleathingman/Wiki-Games',
     demo: null,
@@ -68,7 +68,7 @@ export const projects = [
   {
     id: 3,
     title: 'wg-monitor',
-    description: 'Outil de monitoring pour WireGuard VPN. Supervision des peers, alertes et visualisation des connexions actives en temps réel.',
+    description: 'Outil de monitoring système et réseau, conçue pour offrir une visualisation temps réel précise et fluide des ressources d’un serveur ou d’une machine locale.',
     tags: ['Python', 'WireGuard', 'CLI', 'Monitoring'],
     link: 'https://github.com/bleathingman/wg-monitor',
     demo: null,
@@ -90,7 +90,7 @@ export const projects = [
   {
     id: 5,
     title: 'kleaccess',
-    description: "Projet réalisé en stage — application JavaScript pour la gestion des accès et des droits utilisateurs.",
+    description: "Projet réalisé en stage — application JavaScript pour la gestion des accès et des droits utilisateurs. (Gestionnaire de mot de passe)",
     tags: ['JavaScript', 'Stage', 'Gestion accès'],
     link: 'https://github.com/EtanFaisant/kleaccess',
     demo: null,
